@@ -12,14 +12,12 @@ It takes in the card code specified in the **decklist ** file and fetch the corr
 1. You still have to create and fill in the list of card code 
 2. If there is any changes to the template in the future, please update/replace the template.pdf. There might be a need to update the numbers in the script if there is any changes to the template. 
 3. The structure of the decklist file is as follows:
-a. Country 
-b. Name of the player
-c. 50 card code 
-d. Favourite card's code 
+1. Country 
+2. Name of the player
+3. 50 card code 
+4. Favourite card's code 
 
 # Instructions:
-```sh
-Create a new file decklist 
-Copy the content of decklist-template and fill the respective information
-Run the generateDeckList.py file to generate the decklist to be printed 
-```
+1. Create a new file decklist 
+2. Copy the content of decklist-template and fill the respective information
+3. Run the generateDeckList.py file to generate the decklist to be printed 
